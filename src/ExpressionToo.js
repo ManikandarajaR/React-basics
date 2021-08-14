@@ -13,6 +13,7 @@ export class ExpressionToo extends Component {
               'https://i.pinimg.com/236x/a2/21/da/a221daa53bc8061c6e597c04818f4b06.jpg'
             }
           />
+          <p>It is {new Date().toLocaleTimeString()}</p>
         </div>
       );
     }

@@ -1,13 +1,14 @@
 import React from 'react';
 import './style.css';
 import ExpressionToo from './ExpressionToo';
+import ComposeComponent from './ComposeComponent';
 
 export default function App() {
 
 
   return (
     <div>
-      <ExpressionToo />
+      <ComposeComponent name="Manikandaraja"/>
     </div>
   );
 }

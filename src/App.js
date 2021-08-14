@@ -3,16 +3,17 @@ import './style.css';
 import ExpressionToo from './ExpressionToo';
 import ComposeComponent from './ComposeComponent';
 import FunctionAndClass from './Components/FunctionAndClass';
+import Lifecycle from './Components/Lifecycle'
 
 export default function App() {
   return (
-  <div>
+    <div>
+      
+      <Lifecycle/>
+      {/* <FunctionAndClass name="Mani" work="Developer" />
+      <FunctionAndClass name="Saravana" work="Engineer" /> */}
 
-    
-    { /* <FunctionAndClass name="Mani" work="Developer" />
-      <FunctionAndClass name="Saravana" work="Engineer" /> */ }
-
-    {/*<ComposeComponent name="Manikandaraja" />*/}
+      {/*<ComposeComponent name="Manikandaraja" />*/}
     </div>
-  )
+  );
 }
